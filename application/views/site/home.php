@@ -24,7 +24,7 @@
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<div class="container">
 			<a class="navbar-brand" href="<?= base_url() ?>">
-				Helvan Restaurante (Logo)
+				<img src="<?=base_url('assets/images/logo.png')?>" width="75px" />
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food"
 					aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,13 +32,13 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbars-rs-food">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active"><a class="nav-link" href="javascript:;">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#slides">Home</a></li>
 					<li class="nav-item"><a class="nav-link" href="#menu-box">Menu</a></li>
-					<li class="nav-item"><a class="nav-link" href="javascript:;">Sobre</a></li>
+					<li class="nav-item"><a class="nav-link" href="#about-section-box">Sobre</a></li>
 					<!--
 					<li class="nav-item"><a class="nav-link" href="javascript:;">Reservar</a></li>
 					-->
-					<li class="nav-item"><a class="nav-link" href="javascript:;">Contacto</a></li>
+					<li class="nav-item"><a class="nav-link" href="#contact-imfo-box">Contacto</a></li>
 				</ul>
 			</div>
 		</div>
@@ -67,7 +67,7 @@
 		<a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
 	</div>
 </div>
-<div class="about-section-box">
+<div class="about-section-box" id="about-section-box">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-12">
@@ -103,7 +103,7 @@
 		</div>
 	</div>
 </div>
-<div class="menu-box">
+<div class="menu-box" id="menu-box">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
@@ -211,10 +211,7 @@
 		</div>
 	</div>
 </div>
-<!-- End Customer Reviews -->
-
-<!-- Start Contact info -->
-<div class="contact-imfo-box">
+<div class="contact-imfo-box" id="contact-imfo-box">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
@@ -293,7 +290,6 @@
 			</div>
 		</div>
 	</div>
-
 	<div class="copyright">
 		<div class="container">
 			<div class="row">
@@ -306,10 +302,7 @@
 			</div>
 		</div>
 	</div>
-
 </footer>
-<!-- End Footer -->
-<!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
 <script>
 	window.fbAsyncInit = function () {
@@ -318,7 +311,6 @@
 			version: 'v7.0'
 		});
 	};
-
 	(function (d, s, id) {
 		var js, fjs = d.getElementsByTagName(s)[0];
 		if (d.getElementById(id)) return;
@@ -327,15 +319,12 @@
 		js.src = 'https://connect.facebook.net/pt_PT/sdk/xfbml.customerchat.js';
 		fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
-
-<!-- Your Chat Plugin code -->
 <div class="fb-customerchat"
 	 attribution=setup_tool
 	 page_id="111536920602129"
 	 logged_in_greeting="Oi! Como podemos te ajudar?"
 	 logged_out_greeting="Oi! Como podemos te ajudar?">
 </div>
-
 <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
 <script src="<?= base_url("assets/") ?>js/jquery-3.2.1.min.js"></script>
 <script src="<?= base_url("assets/") ?>js/popper.min.js"></script>
@@ -345,7 +334,6 @@
 <script src="<?= base_url("assets/") ?>js/isotope.min.js"></script>
 <script src="<?= base_url("assets/") ?>js/baguetteBox.min.js"></script>
 <script src="<?= base_url("assets/") ?>js/form-validator.min.js"></script>
-<script src="<?= base_url("assets/") ?>js/contact-form-script.js"></script>
 <script src="<?= base_url("assets/") ?>js/custom.js"></script>
 </body>
 </html>
