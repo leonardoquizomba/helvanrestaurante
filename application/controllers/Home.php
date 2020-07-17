@@ -29,7 +29,7 @@ class Home extends CI_Controller
 		$data['contactos'] = array(
 			'endereco' => 'Marginal de Luanda, Edifício Kilamba 1º andar',
 			'telefone' => '+244939369484',
-			'email' => 'info@admin.com'
+			'email' => 'Gaster.nomos@helvan.co.ao'
 		);
 		$data['portfolios'] = array(
 			array('sm' => '12', 'href' => base_url("assets/images/gallery-img-01.jpg")),
@@ -40,15 +40,18 @@ class Home extends CI_Controller
 			array('sm' => '6', 'href' => base_url("assets/images/gallery-img-06.jpg")),
 		);
 		$data['menus'] = array(
-			array('src' => base_url("assets/images/img-01.jpg"), 'nome' => 'Bebidas Especiais 1', 'desc' => 'Sed id magna vitae eros sagittis euismod.', 'preco' => '7.79', 'class' => 'drinks'),
-			array('src' => base_url("assets/images/img-02.jpg"), 'nome' => 'Bebidas Especiais 2', 'desc' => 'Sed id magna vitae eros sagittis euismod.', 'preco' => '7.79', 'class' => 'drinks'),
-			array('src' => base_url("assets/images/img-03.jpg"), 'nome' => 'Bebidas Especiais 3', 'desc' => 'Sed id magna vitae eros sagittis euismod.', 'preco' => '7.79', 'class' => 'drinks'),
-			array('src' => base_url("assets/images/img-04.jpg"), 'nome' => 'Lunch Especiais 1', 'desc' => 'Sed id magna vitae eros sagittis euismod.', 'preco' => '7.79', 'class' => 'lunch'),
-			array('src' => base_url("assets/images/img-05.jpg"), 'nome' => 'Lunch Especiais 2', 'desc' => 'Sed id magna vitae eros sagittis euismod.', 'preco' => '7.79', 'class' => 'lunch'),
-			array('src' => base_url("assets/images/img-06.jpg"), 'nome' => 'Lunch Especiais 3', 'desc' => 'Sed id magna vitae eros sagittis euismod.', 'preco' => '7.79', 'class' => 'lunch'),
-			array('src' => base_url("assets/images/img-07.jpg"), 'nome' => 'Dinner Especiais 1', 'desc' => 'Sed id magna vitae eros sagittis euismod.', 'preco' => '7.79', 'class' => 'dinner'),
-			array('src' => base_url("assets/images/img-08.jpg"), 'nome' => 'Dinner Especiais 2', 'desc' => 'Sed id magna vitae eros sagittis euismod.', 'preco' => '7.79', 'class' => 'dinner'),
-			array('src' => base_url("assets/images/img-09.jpg"), 'nome' => 'Dinner Especiais 3', 'desc' => 'Sed id magna vitae eros sagittis euismod.', 'preco' => '7.79', 'class' => 'dinner')
+			array('src' => base_url("assets/images/novas/1.jpeg"), 'nome' => 'Calulú de carne seca', 'desc' => '', 'preco' => '', 'class' => 'drinks'),
+			array('src' => base_url("assets/images/novas/2.jpeg"), 'nome' => 'Bife a parmegiana', 'desc' => '', 'preco' => '', 'class' => 'drinks'),
+			array('src' => base_url("assets/images/novas/3.jpeg"), 'nome' => 'Peixe escalado', 'desc' => '', 'preco' => '', 'class' => 'drinks'),
+			array('src' => base_url("assets/images/novas/4.jpeg"), 'nome' => 'Arroz de tomate com filetes', 'desc' => '', 'preco' => '', 'class' => 'drinks'),
+			array('src' => base_url("assets/images/novas/5.jpeg"), 'nome' => 'Cheesecake', 'desc' => '', 'preco' => '', 'class' => 'drinks'),
+			array('src' => base_url("assets/images/novas/6.jpeg"), 'nome' => 'Bolos sortidos', 'desc' => '', 'preco' => '', 'class' => 'drinks'),
+			array('src' => base_url("assets/images/novas/7.jpeg"), 'nome' => 'Frutas laminadas', 'desc' => '', 'preco' => '', 'class' => 'drinks'),
+			array('src' => base_url("assets/images/novas/8.jpeg"), 'nome' => 'Rabinho de boi', 'desc' => '', 'preco' => '', 'class' => 'drinks'),
+			array('src' => base_url("assets/images/novas/9.jpeg"), 'nome' => 'Leitão à bairrada', 'desc' => '', 'preco' => '', 'class' => 'drinks'),
+			array('src' => base_url("assets/images/novas/10.jpeg"), 'nome' => 'Lulas recheadas', 'desc' => '', 'preco' => '', 'class' => 'drinks'),
+			array('src' => base_url("assets/images/novas/11.jpg"), 'nome' => 'Lasanha de carne', 'desc' => '', 'preco' => '', 'class' => 'drinks'),
+			array('src' => base_url("assets/images/novas/12.JPG"), 'nome' => 'Grelhada mista', 'desc' => '', 'preco' => '', 'class' => 'drinks'),
 		);
 		$data['slides'] = array(
 			array('src' => base_url("assets/images/slider-01.jpg")),
